@@ -1,0 +1,33 @@
+name: M3U8自动更新任务
+on:
+  schedule:
+    # UTC时间每天20点执行，对应北京时间凌晨4点，避开使用高峰
+    - cron: "00 20 * * *"
+  # 支持手动在GitHub页面点击触发更新
+  workflow_dispatch:
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取仓库代码
+        uses: actions/checkout@v4
+
+      - name: 配置Python环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: 安装依赖
+        run: pip install yt-dlp
+
+      - name: 执行链接检测与更新脚本
+        run: python3 auto_check.py
+
+      - name: 提交更新到仓库
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "自动更新可用直播源 $(date +'%Y-%m-%d')" || echo "无更新内容，跳过提交"
+          git push
