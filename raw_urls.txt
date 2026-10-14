@@ -15,3 +15,10 @@ CCTV-17,http://106.115.25.122:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1
 江苏卫视高清,http://106.115.25.122:9901/tsfile/live/1026_1.m3u8?key=txiptv&playlive=1&authid=0
 东方卫视高清,http://106.115.25.122:9901/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
 浙江卫视高清,http://106.115.25.122:9901/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&authid=0
+美国寓言,https://vv.jisuzyv.com/play/QdJK6Qoe/index.m3u8
+最终圣战,https://vv.jisuzyv.com/play/7e53YM8b/index.m3u8
+骏马奥斯温4,https://vv.jisuzyv.com/play/9avxRnMd/index.m3u8
+播种幸福的人,https://vv.jisuzyv.com/play/PdRByqYd/index.m3u8
+忠诚,https://vv.jisuzyv.com/play/zbq6gK2d/index.m3u8
+的士速递3,https://vv.jisuzyv.com/play/wdLBLqWa/index.m3u8
+百岁老人跷家去,https://vv.jisuzyv.com/play/negXrmZa/index.m3u8
