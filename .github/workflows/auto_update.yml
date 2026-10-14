@@ -6,6 +6,10 @@ on:
   # 支持手动在GitHub页面点击触发更新
   workflow_dispatch:
 
+# 关键：授权工作流写回仓库，否则 git push 会因 token 只读而失败
+permissions:
+  contents: write
+
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
@@ -19,7 +23,8 @@ jobs:
           python-version: "3.10"
 
       - name: 安装依赖
-        run: pip install yt-dlp
+        # 这里加装 requests（脚本检测 m3u8 用到），保留 yt-dlp 作备用检测
+        run: pip install yt-dlp requests
 
       - name: 执行链接检测与更新脚本
         run: python3 auto_check.py
@@ -30,4 +35,4 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "自动更新可用直播源 $(date +'%Y-%m-%d')" || echo "无更新内容，跳过提交"
-          git push
+          git push origin HEAD:${{ github.ref_name }}
