@@ -14,20 +14,28 @@ def read_and_parse(filename):
         with open(filename, "r", encoding="utf-8", errors="replace") as f:
             for line in f:
                 line = line.strip()
+                # 忽略空行和注释行
                 if not line or line.startswith("#"):
                     continue
                 
-                parts = line.split(",")
-                # 提取以 http 开头的纯链接
-                url = next((p.strip() for p in parts if p.strip().startswith("http")), None)
-                if not url:
+                # 按逗号分割
+                parts = [p.strip() for p in line.split(",")]
+                if len(parts) < 2:
                     continue
+
+                # 【核心修复】取最后一个元素作为 URL，其余部分拼接作为频道名
+                url = parts[-1]
+                channel_name = ",".join(parts[:-1])
+
+                # 简单的容错：如果第一个字段刚好以 http 开头，说明没有频道名
+                if parts[0].startswith("http"):
+                    channel_name = "未知频道"
+                    url = parts[0]
                 
-                # 提取频道名称
-                channel_name = parts[0].strip()
-                if not channel_name or channel_name.startswith("http"):
-                    channel_name = url # 如果没有名称，默认用 URL 代替
-                
+                # 确保提取到的 URL 是有效的网络地址
+                if not url.startswith("http"):
+                    continue
+
                 # 以 URL 为 Key 进行去重，保留先出现的频道名
                 if url not in unique_entries:
                     unique_entries[url] = channel_name
