@@ -1,37 +1,17 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="CCTV-17" group-title="自动更新",CCTV-17
-http://106.115.25.122:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="河北卫视" group-title="自动更新",河北卫视
-http://106.115.25.122:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="河北经济" group-title="自动更新",河北经济
-http://106.115.25.122:9901/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="河北都市" group-title="自动更新",河北都市
-http://106.115.25.122:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="河北影视" group-title="自动更新",河北影视
-http://106.115.25.122:9901/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="河北少儿科教" group-title="自动更新",河北少儿科教
-http://106.115.25.122:9901/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="唐山影视" group-title="自动更新",唐山影视
-http://106.115.25.122:9901/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="河北农民" group-title="自动更新",河北农民
-http://106.115.25.122:9901/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="北京卫视高清" group-title="自动更新",北京卫视高清
-http://106.115.25.122:9901/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="湖南卫视高清" group-title="自动更新",湖南卫视高清
-http://106.115.25.122:9901/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="黑龙江卫视高清" group-title="自动更新",黑龙江卫视高清
-http://106.115.25.122:9901/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="深圳卫视高清" group-title="自动更新",深圳卫视高清
-http://106.115.25.122:9901/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="江苏卫视高清" group-title="自动更新",江苏卫视高清
-http://106.115.25.122:9901/tsfile/live/1026_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="东方卫视高清" group-title="自动更新",东方卫视高清
-http://106.115.25.122:9901/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="浙江卫视高清" group-title="自动更新",浙江卫视高清
-http://106.115.25.122:9901/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="暂告安全" group-title="自动更新",暂告安全
+https://fengbao13.com/video/zangaoanquan/e8b09b589507/index.m3u8
+#EXTINF:-1 tvg-name="物产展之女～北盐原村?磐梯町?米泽市篇～" group-title="自动更新",物产展之女～北盐原村?磐梯町?米泽市篇～
+https://vip.ffzy-plays.com/20261004/59033_e7ccdaa0/index.m3u8
+#EXTINF:-1 tvg-name="物产展之女：高崎篇" group-title="自动更新",物产展之女：高崎篇
+https://vip.ffzy-plays.com/20261004/59032_ab3dc2c1/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-name="丛林奇航" group-title="自动更新",丛林奇航
+https://vv.jisuzyv.com/play/vbmXA4pa/index.m3u8
+#EXTINF:-1 tvg-name="忌日快乐2" group-title="自动更新",忌日快乐2
+https://vv.jisuzyv.com/play/9avxQVVd/index.m3u8
 #EXTINF:-1 tvg-name="美国寓言" group-title="自动更新",美国寓言
 https://vv.jisuzyv.com/play/QdJK6Qoe/index.m3u8
-#EXTINF:-1 tvg-name="最终圣战" group-title="自动更新",最终圣战
+#EXTINF:-1 tvg-name="迪迦奥特曼：最终圣战" group-title="自动更新",迪迦奥特曼：最终圣战
 https://vv.jisuzyv.com/play/7e53YM8b/index.m3u8
 #EXTINF:-1 tvg-name="骏马奥斯温4" group-title="自动更新",骏马奥斯温4
 https://vv.jisuzyv.com/play/9avxRnMd/index.m3u8
@@ -43,4 +23,60 @@ https://vv.jisuzyv.com/play/zbq6gK2d/index.m3u8
 https://vv.jisuzyv.com/play/wdLBLqWa/index.m3u8
 #EXTINF:-1 tvg-name="百岁老人跷家去" group-title="自动更新",百岁老人跷家去
 https://vv.jisuzyv.com/play/negXrmZa/index.m3u8
+#EXTINF:-1 tvg-name="忠诚2017" group-title="自动更新",忠诚2017
+https://vv.jisuzyv.com/play/xbonZxNa/index.m3u8
+#EXTINF:-1 tvg-name="普贾，我的爱人" group-title="自动更新",普贾，我的爱人
+https://fengbao13.com/video/pujiawodeairen/0e5dfcfc1d19/index.m3u8
+#EXTINF:-1 tvg-name="玛蒂尔达" group-title="自动更新",玛蒂尔达
+https://vv.jisuzyv.com/play/0dNKk8ze/index.m3u8
+#EXTINF:-1 tvg-name="90米" group-title="自动更新",90米
+https://fengbao13.com/video/90mi/791a5156f432/index.m3u8
+#EXTINF:-1 tvg-name="航班蛇患" group-title="自动更新",航班蛇患
+https://vv.jisuzyv.com/play/0dN1M86b/index.m3u8
+#EXTINF:-1 tvg-name="罗宾汉：起源-普通话版" group-title="自动更新",罗宾汉：起源-普通话版
+https://vv.jisuzyv.com/play/xe7yA9Gb/index.m3u8
+#EXTINF:-1 tvg-name="罗宾汉：起源-原声版" group-title="自动更新",罗宾汉：起源-原声版
+https://vv.jisuzyv.com/play/Qe1p96od/index.m3u8
+#EXTINF:-1 tvg-name="午夜女孩" group-title="自动更新",午夜女孩
+https://svip.ryplay14.com/20261003/20091_6cbba65c/2000k/hls/index.m3u8
+#EXTINF:-1 tvg-name="忘年之约" group-title="自动更新",忘年之约
+https://fengbao13.com/video/wangnianzhiyue/de52fac1e37b/index.m3u8
+#EXTINF:-1 tvg-name="美味的制作方法" group-title="自动更新",美味的制作方法
+https://vip.ffzy-plays.com/20261003/58988_480e4d1e/index.m3u8
+#EXTINF:-1 tvg-name="神之乐团" group-title="自动更新",神之乐团
+https://play.phimgood.com/20261003/32009_44c7d2e7/index.m3u8
+#EXTINF:-1 tvg-name="人生在世" group-title="自动更新",人生在世
+https://play.phimgood.com/20261003/32003_619c1be4/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-name="庆州纪行" group-title="自动更新",庆州纪行
+https://play.phimgood.com/20261003/32001_93c06a67/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-name="叫我驱魔男神" group-title="自动更新",叫我驱魔男神
+https://play.phimgood.com/20261003/32006_a727613d/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-name="极速传承" group-title="自动更新",极速传承
+https://play.phimgood.com/20261003/32004_6177a45c/index.m3u8
+#EXTINF:-1 tvg-name="疯狂穷富翁" group-title="自动更新",疯狂穷富翁
+https://play.phimgood.com/20261003/32008_f5952af4/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-name="功夫女足" group-title="自动更新",功夫女足
+https://vip.dytt-see.com/20261003/45175_0a750b4b/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-name="挖掘者" group-title="自动更新",挖掘者
+https://vip.dytt-see.com/20261003/45176_c57c11c1/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-name="护肝人" group-title="自动更新",护肝人
+https://v14.zuidazym3u8.com/yyv14/202609/05/KYdG6HaUQ227/video/2000k_1080/hls/index.m3u8
+#EXTINF:-1 tvg-name="队长禁区" group-title="自动更新",队长禁区
+https://super.ffzy-online6.com/20261003/42435_8bf88c8b/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-name="雷诺阿2025" group-title="自动更新",雷诺阿2025
+https://fengbao13.com/video/leinuoa2025/38ec29ded34b/index.m3u8
+#EXTINF:-1 tvg-name="不存在的罪人" group-title="自动更新",不存在的罪人
+https://vip.dytt-see.com/20261002/45174_f022ec5e/index.m3u8
+#EXTINF:-1 tvg-name="哦，我的狗啊" group-title="自动更新",哦，我的狗啊
+https://vv.jisuzyv.com/play/eVONx8va/index.m3u8
+#EXTINF:-1 tvg-name="穷煞鸳鸯" group-title="自动更新",穷煞鸳鸯
+https://fengbao13.com/video/qiongshayuanyang/4fd55d342a4f/index.m3u8
+#EXTINF:-1 tvg-name="鬼的新娘" group-title="自动更新",鬼的新娘
+https://v15.zuidazym3u8.com/yyv15/202610/02/bPFpFRFM4027/video/index.m3u8
+#EXTINF:-1 tvg-name="病院尸录" group-title="自动更新",病院尸录
+https://fengbao13.com/video/bingyuanshilu/577cf1de3180/index.m3u8
+#EXTINF:-1 tvg-name="缘财天降" group-title="自动更新",缘财天降
+https://fengbao13.com/video/yuancaitianjiang/65b97ce4f3d0/index.m3u8
+#EXTINF:-1 tvg-name="宇航员恋人" group-title="自动更新",宇航员恋人
+https://vod.ffzy-bofang.com/20261002/3577_3e77a146/3000k/hls/mixed.m3u8
 #EXT-X-ENDLIST
