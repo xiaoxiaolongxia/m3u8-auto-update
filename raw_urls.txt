@@ -1,7 +1,10 @@
 ﻿# 影视资源自动更新列表
 # 生成时间：2026-10-13
 https://fengbao13.com/video/zangaoanquan/e8b09b589507/index.m3u8,暂告安全
-https://vip.ffzy-plays.com/20261004/59033_e7ccdaa0/index.m3u8,物产展之女～北盐原村磐梯町米泽市篇～
-https://vip.ffzy-plays.com/20261004/59032_ab3dc2c1/index.m3u8,物产展之女：高崎篇
-https://vip.ffzy-plays.com/20261004/59032_ab3dc2c1/3000k/hls/mixed.m3u8,物产展之女：高崎篇(3000k)
+https://vip.ffzy-plays.com/20261004/59033_e7ccdaa0/index.m3u8,物产展之女
+https://vip.ffzy-plays.com/20261004/59032_ab3dc2c1/index.m3u8,物产展之女
 https://vv.jisuzyv.com/play/vbmXA4pa/index.m3u8,丛林奇航
+http://106.115.25.122:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0,CCTV-13
+http://106.115.25.122:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0,CCTV-14
+http://106.115.25.122:9901/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0,CCTV-15
+http://106.115.25.122:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0,河北卫视
