@@ -8,7 +8,7 @@ GROUP_TITLE = "自动更新"
 # ==========================================
 
 def read_and_parse(filename):
-    """读取原始列表并解析为 (频道名, URL) 格式"""
+    """读取原始列表并解析为 (URL, 频道名) 格式"""
     unique_entries = OrderedDict()
     try:
         with open(filename, "r", encoding="utf-8", errors="replace") as f:
@@ -18,13 +18,14 @@ def read_and_parse(filename):
                 if not line or line.startswith("#"):
                     continue
                 
-                # 核心逻辑：按逗号切割，取最后一部分当 URL，防止频道名里有逗号导致解析错误
+                # 核心逻辑：按英文逗号切割
                 parts = line.split(",")
                 if len(parts) < 2:
-                    continue  # 如果没有逗号，说明格式不对，直接跳过
+                    continue  # 如果没有逗号，格式不对，直接跳过
 
-                url = parts[-1].strip()  # 最后一部分作为 URL
-                name = ",".join(parts[:-1]).strip()  # 其余部分作为频道名
+                # 【适配新格式】第一部分是 URL，最后一部分是频道名
+                url = parts[0].strip() 
+                name = parts[-1].strip()
 
                 # 强校验：URL 必须以 http 开头，否则跳过
                 if not url.startswith("http"):
@@ -49,7 +50,7 @@ def check_availability(entries):
     valid_entries = []
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
     
-    for name, url in entries:
+    for url, name in entries:
         try:
             # 使用 stream 模式，不下载完整文件，极度节省流量和时间
             r = requests.get(url, timeout=15, headers=headers, stream=True)
@@ -58,7 +59,7 @@ def check_availability(entries):
                 # 仅读取前 512 字节
                 sample = r.raw.read(512).decode("utf-8", errors="ignore")
                 if "#EXTM3U" in sample:
-                    valid_entries.append((name, url))
+                    valid_entries.append((url, name))
                     print(f"  ✅ 可用: {name}")
                     continue
             print(f"  ❌ 无效: {name}")
@@ -71,7 +72,7 @@ def generate_m3u8(entries, filename):
     """生成标准 m3u8 播放列表"""
     with open(filename, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        for name, url in entries:
+        for url, name in entries:
             f.write(f'#EXTINF:-1 tvg-name="{name}" group-title="{GROUP_TITLE}",{name}\n{url}\n')
         f.write("#EXT-X-ENDLIST\n")
 
