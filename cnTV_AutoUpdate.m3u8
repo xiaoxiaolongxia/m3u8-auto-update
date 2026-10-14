@@ -1,2 +1,46 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="CCTV-17" group-title="自动更新",CCTV-17
+http://106.115.25.122:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="河北卫视" group-title="自动更新",河北卫视
+http://106.115.25.122:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="河北经济" group-title="自动更新",河北经济
+http://106.115.25.122:9901/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="河北都市" group-title="自动更新",河北都市
+http://106.115.25.122:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="河北影视" group-title="自动更新",河北影视
+http://106.115.25.122:9901/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="河北少儿科教" group-title="自动更新",河北少儿科教
+http://106.115.25.122:9901/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="唐山影视" group-title="自动更新",唐山影视
+http://106.115.25.122:9901/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="河北农民" group-title="自动更新",河北农民
+http://106.115.25.122:9901/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="北京卫视高清" group-title="自动更新",北京卫视高清
+http://106.115.25.122:9901/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="湖南卫视高清" group-title="自动更新",湖南卫视高清
+http://106.115.25.122:9901/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="黑龙江卫视高清" group-title="自动更新",黑龙江卫视高清
+http://106.115.25.122:9901/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="深圳卫视高清" group-title="自动更新",深圳卫视高清
+http://106.115.25.122:9901/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="江苏卫视高清" group-title="自动更新",江苏卫视高清
+http://106.115.25.122:9901/tsfile/live/1026_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="东方卫视高清" group-title="自动更新",东方卫视高清
+http://106.115.25.122:9901/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="浙江卫视高清" group-title="自动更新",浙江卫视高清
+http://106.115.25.122:9901/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="美国寓言" group-title="自动更新",美国寓言
+https://vv.jisuzyv.com/play/QdJK6Qoe/index.m3u8
+#EXTINF:-1 tvg-name="最终圣战" group-title="自动更新",最终圣战
+https://vv.jisuzyv.com/play/7e53YM8b/index.m3u8
+#EXTINF:-1 tvg-name="骏马奥斯温4" group-title="自动更新",骏马奥斯温4
+https://vv.jisuzyv.com/play/9avxRnMd/index.m3u8
+#EXTINF:-1 tvg-name="播种幸福的人" group-title="自动更新",播种幸福的人
+https://vv.jisuzyv.com/play/PdRByqYd/index.m3u8
+#EXTINF:-1 tvg-name="忠诚" group-title="自动更新",忠诚
+https://vv.jisuzyv.com/play/zbq6gK2d/index.m3u8
+#EXTINF:-1 tvg-name="的士速递3" group-title="自动更新",的士速递3
+https://vv.jisuzyv.com/play/wdLBLqWa/index.m3u8
+#EXTINF:-1 tvg-name="百岁老人跷家去" group-title="自动更新",百岁老人跷家去
+https://vv.jisuzyv.com/play/negXrmZa/index.m3u8
 #EXT-X-ENDLIST
