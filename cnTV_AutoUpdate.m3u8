@@ -79,4 +79,8 @@ https://fengbao13.com/video/bingyuanshilu/577cf1de3180/index.m3u8
 https://fengbao13.com/video/yuancaitianjiang/65b97ce4f3d0/index.m3u8
 #EXTINF:-1 tvg-name="宇航员恋人" group-title="自动更新",宇航员恋人
 https://vod.ffzy-bofang.com/20261002/3577_3e77a146/3000k/hls/mixed.m3u8
+#EXTINF:-1 tvg-name="你好星期六20261010" group-title="自动更新",你好星期六20261010
+https://bfikuncdn.com/20261010/FCcd81aK/3389kb/hls/index.m3u8
+#EXTINF:-1 tvg-name="你好星期六20261010" group-title="自动更新",你好星期六20261010
+https://bfikuncdn.com/20261010/FCcd81aK/index.m3u8
 #EXT-X-ENDLIST
