@@ -1,4 +1,12 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="暂告安全" group-title="自动更新",暂告安全
 https://fengbao13.com/video/zangaoanquan/e8b09b589507/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-13" group-title="自动更新",CCTV-13
+http://106.115.25.122:9901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-14" group-title="自动更新",CCTV-14
+http://106.115.25.122:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="CCTV-15" group-title="自动更新",CCTV-15
+http://106.115.25.122:9901/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="河北卫视" group-title="自动更新",河北卫视
+http://106.115.25.122:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXT-X-ENDLIST
