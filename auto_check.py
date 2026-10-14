@@ -8,8 +8,7 @@ with open("raw_urls.txt", "r", encoding="utf-8") as f:
 
 valid_urls = []
 # 自动去重
-unique_urls = list
-(dict.fromkeys(raw_lines))
+unique_urls = list(dict.fromkeys(raw_lines))
 
 # 检测链接有效性
 for url in unique_urls:
