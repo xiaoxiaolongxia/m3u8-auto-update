@@ -1,4 +1,10 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="星期六20261010" group-title="自动更新",星期六20261010
+https://142.248.97.195:21302/data6/jvods/hls/dhz/36/35059/26101021/4_31856_6298315/1920/index.m3u8?appId=kkdy&sign=be629efb957b27049d2798893d97077d&timestamp=1792046267&ref=0
+#EXTINF:-1 tvg-name="你好星六20261010" group-title="自动更新",你好星六20261010
+https://bfikuncdn.com/20261010/FCcd81aK/3389kb/hls/index.m3u8
+#EXTINF:-1 tvg-name="你好期六20261010" group-title="自动更新",你好期六20261010
+https://bfikuncdn.com/20261010/FCcd81aK/index.m3u8
 #EXTINF:-1 tvg-name="暂告安全" group-title="自动更新",暂告安全
 https://fengbao13.com/video/zangaoanquan/e8b09b589507/index.m3u8
 #EXTINF:-1 tvg-name="物产展之女～北盐原村?磐梯町?米泽市篇～" group-title="自动更新",物产展之女～北盐原村?磐梯町?米泽市篇～
@@ -79,10 +85,4 @@ https://fengbao13.com/video/bingyuanshilu/577cf1de3180/index.m3u8
 https://fengbao13.com/video/yuancaitianjiang/65b97ce4f3d0/index.m3u8
 #EXTINF:-1 tvg-name="宇航员恋人" group-title="自动更新",宇航员恋人
 https://vod.ffzy-bofang.com/20261002/3577_3e77a146/3000k/hls/mixed.m3u8
-#EXTINF:-1 tvg-name="你好星期六20261010" group-title="自动更新",你好星期六20261010
-https://bfikuncdn.com/20261010/FCcd81aK/3389kb/hls/index.m3u8
-#EXTINF:-1 tvg-name="你好星期六20261010" group-title="自动更新",你好星期六20261010
-https://bfikuncdn.com/20261010/FCcd81aK/index.m3u8
-#EXTINF:-1 tvg-name="你好星期六20261010" group-title="自动更新",你好星期六20261010
-https://142.248.97.195:21302/data6/jvods/hls/dhz/36/35059/26101021/4_31856_6298315/1920/index.m3u8?appId=kkdy&sign=be629efb957b27049d2798893d97077d&timestamp=1792046267&ref=0
 #EXT-X-ENDLIST
