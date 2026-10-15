@@ -42,3 +42,4 @@
 宇航员恋人,https://vod.ffzy-bofang.com/20261002/3577_3e77a146/3000k/hls/mixed.m3u8
 你好星期六20261010,https://bfikuncdn.com/20261010/FCcd81aK/3389kb/hls/index.m3u8
 你好星期六20261010,https://bfikuncdn.com/20261010/FCcd81aK/index.m3u8
+你好星期六20261010,https://142.248.97.195:21302/data6/jvods/hls/dhz/36/35059/26101021/4_31856_6298315/1920/index.m3u8?appId=kkdy&sign=be629efb957b27049d2798893d97077d&timestamp=1792046267&ref=0
