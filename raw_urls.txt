@@ -1,19 +1,12 @@
 ﻿# 影视资源自动更新列表
-# 生成时间：2026-10-13
+# 生成时间：2026-10-16
 星期六20261010,https://142.248.97.195:21302/data6/jvods/hls/dhz/36/35059/26101021/4_31856_6298315/1920/index.m3u8?appId=kkdy&sign=be629efb957b27049d2798893d97077d&timestamp=1792046267&ref=0
 你好星六20261010,https://bfikuncdn.com/20261010/FCcd81aK/3389kb/hls/index.m3u8
 你好期六20261010,https://bfikuncdn.com/20261010/FCcd81aK/index.m3u8
+现在就出发第四季20261010第1期上,https://fengbao13.com/video/xianzaijiuchufadisiji/c27d3f8c89ee/index.m3u8
+现在就出发第四季20261011第1期下,https://fengbao13.com/video/xianzaijiuchufadisiji/7f4a280e4c94/index.m3u8
 暂告安全,https://fengbao13.com/video/zangaoanquan/e8b09b589507/index.m3u8
-物产展之女～北盐原村?磐梯町?米泽市篇～,https://vip.ffzy-plays.com/20261004/59033_e7ccdaa0/index.m3u8
-物产展之女：高崎篇,https://vip.ffzy-plays.com/20261004/59032_ab3dc2c1/3000k/hls/mixed.m3u8
-丛林奇航,https://vv.jisuzyv.com/play/vbmXA4pa/index.m3u8
-忌日快乐2,https://vv.jisuzyv.com/play/9avxQVVd/index.m3u8
-美国寓言,https://vv.jisuzyv.com/play/QdJK6Qoe/index.m3u8
-迪迦奥特曼：最终圣战,https://vv.jisuzyv.com/play/7e53YM8b/index.m3u8
 骏马奥斯温4,https://vv.jisuzyv.com/play/9avxRnMd/index.m3u8
-播种幸福的人,https://vv.jisuzyv.com/play/PdRByqYd/index.m3u8
-忠诚,https://vv.jisuzyv.com/play/zbq6gK2d/index.m3u8
-的士速递3,https://vv.jisuzyv.com/play/wdLBLqWa/index.m3u8
 百岁老人跷家去,https://vv.jisuzyv.com/play/negXrmZa/index.m3u8
 忠诚2017,https://vv.jisuzyv.com/play/xbonZxNa/index.m3u8
 普贾，我的爱人,https://fengbao13.com/video/pujiawodeairen/0e5dfcfc1d19/index.m3u8
@@ -32,8 +25,6 @@
 极速传承,https://play.phimgood.com/20261003/32004_6177a45c/index.m3u8
 疯狂穷富翁,https://play.phimgood.com/20261003/32008_f5952af4/3000k/hls/mixed.m3u8
 功夫女足,https://vip.dytt-see.com/20261003/45175_0a750b4b/3000k/hls/mixed.m3u8
-挖掘者,https://vip.dytt-see.com/20261003/45176_c57c11c1/3000k/hls/mixed.m3u8
-护肝人,https://v14.zuidazym3u8.com/yyv14/202609/05/KYdG6HaUQ227/video/2000k_1080/hls/index.m3u8
 队长禁区,https://super.ffzy-online6.com/20261003/42435_8bf88c8b/3000k/hls/mixed.m3u8
 雷诺阿2025,https://fengbao13.com/video/leinuoa2025/38ec29ded34b/index.m3u8
 不存在的罪人,https://vip.dytt-see.com/20261002/45174_f022ec5e/index.m3u8
